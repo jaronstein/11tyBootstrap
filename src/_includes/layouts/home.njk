@@ -12,21 +12,25 @@
   <title>{{ title or metadata.title }}</title>
   <!-- build:css -->
 <link rel="stylesheet" href="{{ "/css/theme.css" | url }}">
+<script src="{{ '/js/bootstrap.min.js' | url }}"></script>
+
    <!-- endbuild -->
 </head>
 
 <body class="bg-dark">
 
-  <nav class="navbar navbar-expand-md navbar-dark my-nav mb-4">
+
+
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top my-nav">
   <div class="container">
-    <a class="navbar-brand" href="#">Top navbar</a>
+    <a class="navbar-brand"  href="/"><img alt="logo" style="width:225px;" src="img/m1stlogo.png"></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse show" id="navbarCollapse" style="">
+    <div class="navbar-collapse collapse" id="navbarCollapse" style="">
       <ul class="navbar-nav ms-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Optimization Service</a>
+          <a class="nav-link" aria-current="page" href="#">Optimization Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
@@ -35,7 +39,7 @@
           <a class="nav-link " href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="btn" href="#">Contact Us</a>
+          <a class="btn btn-primary" href="#">Contact Us</a>
         </li>
       </ul>
       
