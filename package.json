@@ -57,5 +57,8 @@
   "bugs": {
     "url": ""
   },
-  "homepage": ""
+  "homepage": "",
+  "engines": {
+    "node": "12"
+  }
 }
